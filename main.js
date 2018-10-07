@@ -4,4 +4,4 @@
  * and open the template in the editor.
  */
 
-var app = angular.module('WelcomePage',[]);
+
