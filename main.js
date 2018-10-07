@@ -4,7 +4,3 @@
  * and open the template in the editor.
  */
 
-function PageController($scope){
-    
-
-}
