@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-    
+
     var app = angular.module("myApp", []);
 
     app.controller("myControl", function($scope){
-        $Scope.madeAgain={
+        $scope.madeAgain={
            "background-color" : "blue"
         }
 
