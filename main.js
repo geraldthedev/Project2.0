@@ -10,9 +10,11 @@
         $scope.madeAgain={
            "background-image": "url('./images/PortBack.jpg')",
             "resize": "both",
-        "background-position": "center",
+            "background-position": "center",
            "background-attachment": "fixed",
          "background-size": "cover",
+         "height": "100px",
+         "width": "200px"
         }
 
     });
