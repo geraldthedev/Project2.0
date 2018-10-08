@@ -8,7 +8,11 @@
 
     app.controller("myControl", function($scope){
         $scope.madeAgain={
-           "background-color" : "blue"
+           "background-image": "url('./images/PortBack.jpg')",
+            "resize": "both",
+        "background-position": "center",
+           "background-attachment": "fixed",
+         "background-size": "cover",
         }
 
     });
