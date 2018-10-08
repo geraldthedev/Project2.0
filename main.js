@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-    var app = angular.module("myApp", []);
+    var app = angular.module('myApp', []);
 
     app.controller("myControl", function($scope){
         $scope.madeAgain={
