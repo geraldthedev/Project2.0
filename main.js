@@ -18,13 +18,3 @@
 
     });
 
-/* The starting CSS styles for the enter animation */
-fun.fade.ng-enter ;{
-  transition:0.5;s; linear ;all,
-  opacity; 0
-}
-
-/* The finishing CSS styles for the enter animation */
-fun.fade.ng-enter.ng-enter-active ;{
-  opacity:1;
-}
