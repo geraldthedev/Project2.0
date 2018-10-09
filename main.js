@@ -5,7 +5,6 @@
  */
 
     var app = angular.module('myApp', []);
-    var fun = angular.module('myApp', ['ngAnimate']);
 
     app.controller("myControl", function($scope){
         $scope.madeAgain={
