@@ -5,6 +5,7 @@
  */
 
     var app = angular.module('myApp', []);
+    var app2 = angular.module('myApp2', []);
 
     app.controller("myControl", function($scope){
         $scope.madeAgain={
@@ -15,5 +16,10 @@
          "background-size": "cover"
         }
 
+    });
+
+    app2.controller("anoControl", function($scope){
+
+        
     });
 
