@@ -16,7 +16,7 @@
          "background-size": "cover"
         }
 
-        $scope.fade.ng-enter {
+        madeAgain.ng-enter {
   transition:0.5s linear all;
   opacity:0;
 }
