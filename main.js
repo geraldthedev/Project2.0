@@ -18,16 +18,3 @@
         }
 
     });
-
-    app.controller("myControl", [ '$animate', function($animate){
-
-    
-
-    }]);
-
-
-    app2.controller("anoControl", function($scope){
-
-
-    });
-
