@@ -22,7 +22,7 @@
 
 app2.controller("anoControl", function($scope){
     $scope.makeIT ={
-        "background-color":"rgb(51, 54, 56, 4)",
+        "background-color":"rgb(51, 54, 56, 0.2)",
         "height": "300px",
         "width": "500px"
     }
