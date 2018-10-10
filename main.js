@@ -8,6 +8,7 @@
     var app2 = angular.module('myApp2', []);
 
     app.controller("myControl", function($scope){
+
         $scope.madeAgain={
            "background-image": "url('./images/PortBack.jpg')",
             "resize": "both",
@@ -17,6 +18,13 @@
         }
 
     });
+
+    app.controller("myControl", [ '$animate', function($animate){
+
+    
+
+    }]);
+
 
     app2.controller("anoControl", function($scope){
 
