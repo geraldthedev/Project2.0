@@ -16,11 +16,6 @@
          "background-size": "cover"
         }
 
-        madeAgain.ng-enter {
-  transition:0.5s linear all;
-  opacity:0;
-}
-
     });
 
     app2.controller("anoControl", function($scope){
