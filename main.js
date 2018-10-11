@@ -9,8 +9,15 @@
     var pg = require('pg');
     var connectionString = "sslmode=verify-ca sslrootcert=server-ca.pem \
       sslcert=client-cert.pem sslkey=client-key.pem \
-      hostaddr=[INSTANCE_IP] \
-      user=postgres dbname=[DB_NAME]";
+      hostaddr= 35.237.117.68\
+      user=postgres dbname=postgres";
+    var pgClient = new pgClient(connectionString);
+    var user = document.getElementById('user');
+    var uData = document.
+
+    pgClient.connect(CREATE TABLE guests (email VARCHAR (355) UNIQUE NOT NULL));
+
+    var query = pgClient.query();
 
     app.controller("myControl", function($scope){
 
