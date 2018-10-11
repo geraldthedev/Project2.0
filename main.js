@@ -6,6 +6,11 @@
 
     var app = angular.module('myApp', []);
     var app2 = angular.module('myApp2', []);
+    var pg = require('pg');
+    var connectionString = "sslmode=verify-ca sslrootcert=server-ca.pem \
+      sslcert=client-cert.pem sslkey=client-key.pem \
+      hostaddr=[INSTANCE_IP] \
+      user=postgres dbname=[DB_NAME]";
 
     app.controller("myControl", function($scope){
 
