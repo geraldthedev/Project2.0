@@ -6,16 +6,7 @@
 
     var app = angular.module('myApp', []);
     var app2 = angular.module('myApp2', []);
-    var pg = require('pg');
-    var connectionString = "sslmode=verify-ca sslrootcert=server-ca.pem \
-      sslcert=client-cert.pem sslkey=client-key.pem \
-      hostaddr= 35.237.117.68\
-      user=postgres dbname=postgres";
-    var pgClient = new pgClient(connectionString);
-    var user = document.getElementById('user');
-
-    var query = pgClient.query();
-
+   
     app.controller("myControl", function($scope){
 
         $scope.madeAgain={
