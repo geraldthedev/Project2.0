@@ -13,7 +13,7 @@
       user=postgres dbname=postgres";
     var pgClient = new pgClient(connectionString);
     var user = document.getElementById('user');
-    var uData = document.
+
 
     pgClient.connect(CREATE TABLE guests (email VARCHAR (355) UNIQUE NOT NULL));
 
@@ -34,7 +34,7 @@
 
 app2.controller("anoControl", function($scope){
     $scope.makeIT ={
-        "background-color":"rgb(51, 54, 56)"
+        "background-color":"rgb(51, 54, 56, 0.6)"
 
     }
 });
