@@ -17,8 +17,15 @@
     width:300px;
     font-weight:600;
     text-align:center;
-    color: #547584;
     height:340px;
+
+}
+
+#gather{
+    border-style: solid;
+    border-color: navajowhite;
+    border-radius: 71px;
+    border-width: 10px;
 
 }
 
