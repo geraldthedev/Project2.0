@@ -14,9 +14,6 @@
     var pgClient = new pgClient(connectionString);
     var user = document.getElementById('user');
 
-
-    pgClient.connect(CREATE TABLE guests (email VARCHAR (355) UNIQUE NOT NULL));
-
     var query = pgClient.query();
 
     app.controller("myControl", function($scope){
